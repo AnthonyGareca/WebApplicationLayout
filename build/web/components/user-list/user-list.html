@@ -1,0 +1,21 @@
+<div id="userlisttemplate">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Nro.</th>
+                <th>Name</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tr ng-repeat="user in userList.users track by $index">
+            <td>
+                <a ng-href="/userdetails">{{$index}}</a>
+            </td>
+            <td>{{user.name}}</td>
+            <td>{{user.lastName}}</td>
+        </tr>
+    </table>
+    <a ng-href="/userform">
+        <button type="button">add</button>
+    </a>
+</div>

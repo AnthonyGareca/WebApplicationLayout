@@ -1,0 +1,28 @@
+<div id="userformtemplate">
+    <form>
+        <div class="form-group">
+            <label for="nameExample">Name</label>
+            <input type="text" class="form-control" id="nameExample" ng-model="userForm.name">
+        </div>
+        <div class="form-group">
+            <label for="lastNameExample">Last Name</label>
+            <input type="text" class="form-control" id="lastNameExample" ng-model="userForm.lastName">
+        </div>
+        <div class="form-group">
+            <label for="emailExample">Email</label>
+            <input type="email" class="form-control" id="emailExample" ng-model="userForm.email">
+        </div>
+        <button type="button" ng-click="userForm.save()" class="btn btn-danger">Submit</button>
+    </form>
+</div>
+
+
+
+
+
+
+
+<!--    para generar una flechita que retorna a la pagina anterior
+<a href="javascript:window.history.back();">&laquo; 
+            <button type="submit" class="btn btn-danger">Submit</button>
+            </a>-->

@@ -1,0 +1,15 @@
+﻿En la carpeta dnd esta el instalador de netBeans
+
+
+mariagarcia@c307-02:/home/kelyflores/Downloads$ sudo chmod +x netbeans-8.0.2-javaee-linux.sh 
+[sudo] password for mariagarcia: 
+Your password will expire in 6 days
+
+mariagarcia@c307-02:/home/kelyflores/Downloads$ sudo sh netbeans-8.0.2-javaee-linux.sh 
+Configuring the installer...
+Searching for JVM on the system...
+Extracting installation data...
+Running the installer wizard...
+mariagarcia@c307-02:/home/kelyflores/Downloads$ ^C
+mariagarcia@c307-02:/home/kelyflores/Downloads$ 
+
